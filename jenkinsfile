@@ -4,9 +4,13 @@ node {
     }
     stage('Build') {
         echo 'Building....'
+        echo 'Building new feature....'
+
     }
     stage('Test') {
         echo 'Testing....'
+        echo 'Testing new feature....'
+
     }
     stage('Deploy') {
         echo 'Deploying....'
